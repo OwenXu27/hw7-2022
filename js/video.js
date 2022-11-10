@@ -62,8 +62,10 @@ document.querySelector("#slider").addEventListener("click", function() {
 
 document.querySelector("#vintage").addEventListener("click", function() {
 	video.classList.add('oldSchool')
+	console.log('oldSchool Apply')
 });
 
 document.querySelector("#orig").addEventListener("click", function() {
 	video.classList.remove('oldSchool')
+	console.log('oldSchool Cancel')
 });
